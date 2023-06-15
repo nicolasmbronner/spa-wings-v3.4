@@ -1,0 +1,133 @@
+body {
+    font-family: monospace;
+    font-size: 1.15rem;
+    background-color: #0A0B0E;
+    color: #FF00D6;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.console-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 600px;
+    background-color: #101116;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding: 0;
+}
+
+.tab-container {
+    display: flex;
+    background-color: #101116;
+    padding: 5px;
+    margin-bottom: 30px;
+    flex-shrink: 0;
+    padding-left: 20px;
+}
+
+.console-input-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    grid-row-start: 3;
+    position: relative;
+    padding-left: -1rem;
+    padding-right: 20px;
+}
+
+.console-input {
+    background-color: #1E040D;
+    color: #FF0055;
+    border: none;
+    outline: none;
+    font-family: monospace;
+    font-size: 1rem;
+    width: 100%;
+    padding: 0.5rem 30px 0.5rem 1rem;
+    box-sizing: border-box;
+}
+
+#helpButton {
+    background-color: #FF0055;
+    border: none;
+    color: black;
+    padding: 5px;
+    font-family: monospace;
+    cursor: pointer;
+    position: absolute;
+    right: 1.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.separator {
+    border-color: #FF00D6;
+    width: 100%;
+}
+
+.tab-item {
+    background-color: #101116;
+    color: #FF0055;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #FF0055;
+    margin-right: 5px;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem; /* Ajouté pour ajuster la taille de la police */
+}
+
+.tab-placeholder {
+    background-color: #101116;
+    color: #FF0055;
+    border: none;
+    margin-right: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#consoleOutput {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.tab-text {
+    color: #FF0055;
+    margin-right: 5px;
+}
+
+.close-tab-btn {
+    background-color: transparent;
+    color: #FF0055;
+    border: none;
+    padding: 0;
+    font-size: 0.8rem;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.entry {
+  cursor: pointer;
+}
+.entry:hover {
+  background-color: #ddd;
+}
+
+.income {
+    background-color: #f0f0f0;
+  }
+  
+  .tips {
+    background-color: #f0f8ff;
+  }

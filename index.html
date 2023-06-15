@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA Wings</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="console-container">
+        <div class="tab-container">
+            <div class="tab-item" tabindex="0">
+                <span class="tab-text">Income Balance</span>
+                <div class="close-tab-btn" tabindex="0">x</div>
+            </div>
+            <button class="tab-placeholder">+</button>
+        </div>
+        <div id="consoleOutput">
+        </div>
+        <form id="consoleInputForm" class="console-input-form">
+            <input id="consoleInput" class="console-input" type="text"
+            autocomplete="off" autofocus>
+            <button id="helpButton">?</button>
+        </form>
+    </div>
+    <script src="js/utilities.js"></script>
+    <script src="js/moneyIncomeBalance.js"></script>
+    <script src="js/eventListeners.js"></script>
+</body>
+</html>
